@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav{
+    width: 100%;
+    height: 6vh;
+    background-color: #092442;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 20px;
+    padding-right: 5%;
+}
+nav h2{
+    font-size: 20px;
+}
+nav span{
+    font-size: 14px;
+}
+button{
+    background-color: #1990FF;
+    border: 1px solid #fff;
+    color:#fff;
+    cursor: pointer;
+}
+input{
+    padding-left: 15px;
+}
+input:focus{
+    outline: none;
+}
+main{
+    width: 100%;
+    height: 92vh;
+    display: grid;
+    grid-template-columns: 20% 79%;
+    grid-template-rows: 100%;
+    gap: 1%;
+}
+.menu{
+    height: 99%;
+    border-right: 2px solid #F6F6F6;
+    border-bottom: 4px solid #F6F6F6;
+    box-shadow: -5px 3px 7px #000;
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu a{
+    display: flex;
+    font-size: 18px;
+    gap: 5px;
+}
+.menu a img{
+    width: 24px;
+    height: 24px;
+}
+.main{
+    height: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main > div{
+    border: 4px solid #F6F6F6;
+    width: 95%;
+    padding-left: 7%;
+}
+.main .legend{
+    height: 6%;
+    display: flex;
+    align-items: center;
+}
+.main span{
+    cursor: pointer;
+}
+.main .head{
+    height: 13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.main .head > div{
+    display: flex;
+    gap: 10px;
+}
+.main .head input{
+    width: 20%;
+}
+.main .head button{
+    width: 7%;
+}
+.main .body{
+    height: 78%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.body .head{
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.body .head p{
+    font-weight: bold;
+}
+.body .head button{
+    width: 13%;
+    height: 100%;
+    margin-right: 20px;
+    font-size: 16px;
+}
+.body .table{
+    width: calc(100% - 20px);
+    height: 70%;
+    border: 2px solid #000;
+    overflow: auto;
+}
+.table thead th:nth-child(1){
+    width: 4%;
+}
+.table thead th:nth-child(2){
+    width: 7%;
+}
+.table thead th:nth-child(3){
+    width: 50%;
+    text-align: left;
+    padding-left: 20px;
+}
+.table table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #000;
+}
+.table thead{
+    height: 65px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    outline: 2px solid #000;
+}
+.table thead th{
+    font-weight: bold;
+}
+.table tbody tr{
+    height: 65px;
+}
+.table tbody tr td,.table th{
+    border: 1px solid #000;
+}
+.table tbody tr td:nth-child(2){
+    color: #1990FF;
+}
+.table tbody tr td:nth-child(3){
+    text-align: justify;
+    padding: 0 20px;
+}
+.table tbody tr td:nth-child(7){
+    color: #1990FF;
+}
+.body .footer{
+    width: calc(100% - 20px);
+    height: 10%;
+    border: 2px solid #F6F6F6;
+}
+.btn-group{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.btn-group button{
+    height: 100%;
+    width: 10%;
+    font-size: 18px;
+}
+.btn-group button:nth-child(1){
+    background-color: #CECECE;
+}
+.pages{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.pages span{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #B3B3B3;
+    box-shadow: 0 3px 2px #B3B3B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+}
+.pages span:hover{
+    background-color: #B3B3B3;
+    color:#fff;
+}
